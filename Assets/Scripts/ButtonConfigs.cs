@@ -24,6 +24,11 @@ public class ButtonConfigs : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void Retry()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+    }
+
     // Sai do jogo
     public void QuitGame()
     {

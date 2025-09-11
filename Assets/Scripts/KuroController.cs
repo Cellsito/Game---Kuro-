@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 
 public class KuroController : MonoBehaviour
 {
-    public static KuroController instance;
+    //public static KuroController instance;
 
     [Header("Movimentação")]
     public float moveSpeed = 5f;
@@ -21,32 +21,35 @@ public class KuroController : MonoBehaviour
     public Animator animator;
     public GameObject atkCollider;
     public GameObject pause;
+    public GameObject gameover;
 
     [Header("UI")]
     public float maxHealth = 100f;
     public float currentHealth;
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    //private void Awake()
+    //{
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 
     void Start()
     {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
 
         currentHealth = maxHealth;
 
         atkCollider.SetActive(false);
         pause.SetActive(false);
+        gameover.SetActive(false);
 
         //if (DualSenseGamepadHID.current != null)
         //{
@@ -193,6 +196,7 @@ public class KuroController : MonoBehaviour
 
     void Die()
     {
-        
+        Time.timeScale = 0;
+        gameover.SetActive(true);
     }
 }

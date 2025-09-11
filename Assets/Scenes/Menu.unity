@@ -4986,6 +4986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 7125610191910426402, guid: 7a30184cdc940724ea01587f335a3926, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

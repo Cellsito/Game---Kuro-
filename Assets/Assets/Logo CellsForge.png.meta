@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: e419b90027b86cd4e92d4d452b76dc43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3326962073993083932
+    second: Logo CellsForge_0
+  - first:
+      213: -555919632622156481
+    second: Logo CellsForge_1
+  - first:
+      213: -6354762597614273976
+    second: Logo CellsForge_2
+  - first:
+      213: -2480444105269895702
+    second: Logo CellsForge_3
+  - first:
+      213: -6855703267861212391
+    second: Logo CellsForge_4
+  - first:
+      213: -5476299238463585093
+    second: Logo CellsForge_5
+  - first:
+      213: -6616279710691024616
+    second: Logo CellsForge_6
+  - first:
+      213: 7242313236065373817
+    second: Logo CellsForge_7
+  - first:
+      213: -4209301163605129932
+    second: Logo CellsForge_8
+  - first:
+      213: -2716365239895918969
+    second: Logo CellsForge_9
+  - first:
+      213: -8986374143965839277
+    second: Logo CellsForge_10
+  - first:
+      213: -3346040038260162942
+    second: Logo CellsForge_11
+  - first:
+      213: -6535190302805430361
+    second: Logo CellsForge_12
+  - first:
+      213: 8473529882905309377
+    second: Logo CellsForge_13
+  - first:
+      213: -4696415473046507652
+    second: Logo CellsForge_14
+  - first:
+      213: 3710342864252483057
+    second: Logo CellsForge_15
+  - first:
+      213: -8153657829314417486
+    second: Logo CellsForge_16
+  - first:
+      213: -3190250267046742179
+    second: Logo CellsForge_17
+  - first:
+      213: 2070040333969203322
+    second: Logo CellsForge_18
+  - first:
+      213: -6665457227255307342
+    second: Logo CellsForge_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo CellsForge_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 270
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cfd89116ebb2e20800000000000000
+      internalID: 3326962073993083932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3504ed1a0af848f0800000000000000
+      internalID: -555919632622156481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 46
+        width: 29
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a334126195fc7a0800000000000000
+      internalID: -6354762597614273976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 46
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed1d2c6a31b39dd0800000000000000
+      internalID: -2480444105269895702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 46
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d5a17336abd0a0800000000000000
+      internalID: -6855703267861212391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 46
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4c2a77bd64004b0800000000000000
+      internalID: -5476299238463585093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 35
+        width: 29
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81123ad58a04e24a0800000000000000
+      internalID: -6616279710691024616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 46
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e49cb448dd18460800000000000000
+      internalID: 7242313236065373817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 46
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4358daeb4ee8595c0800000000000000
+      internalID: -4209301163605129932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 46
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786f8cbc4388d4ad0800000000000000
+      internalID: -2716365239895918969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 46
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3504922f35cf94380800000000000000
+      internalID: -8986374143965839277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eb443305a7091d0800000000000000
+      internalID: -3346040038260162942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 67
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af64b56b075e45a0800000000000000
+      internalID: -6535190302805430361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 9
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c07a38a886089570800000000000000
+      internalID: 8473529882905309377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 9
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f2a6b820bf2deb0800000000000000
+      internalID: -4696415473046507652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 9
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5bca24d29cd7330800000000000000
+      internalID: 3710342864252483057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 10
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bca1a7776368de80800000000000000
+      internalID: -8153657829314417486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_17
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 9
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d577518e844f9b3d0800000000000000
+      internalID: -3190250267046742179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_18
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 10
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7027f857b24abc10800000000000000
+      internalID: 2070040333969203322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 9
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b323e787f98f73a0800000000000000
+      internalID: -6665457227255307342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo CellsForge_0: 3326962073993083932
+      Logo CellsForge_1: -555919632622156481
+      Logo CellsForge_10: -8986374143965839277
+      Logo CellsForge_11: -3346040038260162942
+      Logo CellsForge_12: -6535190302805430361
+      Logo CellsForge_13: 8473529882905309377
+      Logo CellsForge_14: -4696415473046507652
+      Logo CellsForge_15: 3710342864252483057
+      Logo CellsForge_16: -8153657829314417486
+      Logo CellsForge_17: -3190250267046742179
+      Logo CellsForge_18: 2070040333969203322
+      Logo CellsForge_19: -6665457227255307342
+      Logo CellsForge_2: -6354762597614273976
+      Logo CellsForge_3: -2480444105269895702
+      Logo CellsForge_4: -6855703267861212391
+      Logo CellsForge_5: -5476299238463585093
+      Logo CellsForge_6: -6616279710691024616
+      Logo CellsForge_7: 7242313236065373817
+      Logo CellsForge_8: -4209301163605129932
+      Logo CellsForge_9: -2716365239895918969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
