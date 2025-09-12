@@ -62,6 +62,15 @@ TextureImporter:
   - first:
       213: -6665457227255307342
     second: Logo CellsForge_19
+  - first:
+      213: -453293896560911889
+    second: Logo CellsForge_20
+  - first:
+      213: 5652023135080154855
+    second: Logo CellsForge_21
+  - first:
+      213: -3666451372306048008
+    second: Logo CellsForge_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -94,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +114,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -173,10 +182,10 @@ TextureImporter:
       name: Logo CellsForge_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 144
-        width: 270
-        height: 250
+        x: 164
+        y: 578
+        width: 1072
+        height: 996
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +204,10 @@ TextureImporter:
       name: Logo CellsForge_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 34
-        width: 35
-        height: 98
+        x: 13
+        y: 141
+        width: 132
+        height: 381
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +226,10 @@ TextureImporter:
       name: Logo CellsForge_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 46
-        width: 29
-        height: 75
+        x: 171
+        y: 189
+        width: 109
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +248,10 @@ TextureImporter:
       name: Logo CellsForge_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 46
-        width: 28
-        height: 75
+        x: 295
+        y: 189
+        width: 103
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +270,10 @@ TextureImporter:
       name: Logo CellsForge_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 46
-        width: 27
-        height: 75
+        x: 418
+        y: 189
+        width: 103
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +292,10 @@ TextureImporter:
       name: Logo CellsForge_5
       rect:
         serializedVersion: 2
-        x: 133
-        y: 46
-        width: 35
-        height: 75
+        x: 535
+        y: 187
+        width: 134
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +314,10 @@ TextureImporter:
       name: Logo CellsForge_6
       rect:
         serializedVersion: 2
-        x: 173
-        y: 35
-        width: 29
-        height: 97
+        x: 695
+        y: 144
+        width: 109
+        height: 377
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +336,10 @@ TextureImporter:
       name: Logo CellsForge_7
       rect:
         serializedVersion: 2
-        x: 203
-        y: 46
-        width: 35
-        height: 75
+        x: 816
+        y: 187
+        width: 131
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +358,10 @@ TextureImporter:
       name: Logo CellsForge_8
       rect:
         serializedVersion: 2
-        x: 242
-        y: 46
-        width: 35
-        height: 75
+        x: 972
+        y: 188
+        width: 131
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +380,10 @@ TextureImporter:
       name: Logo CellsForge_9
       rect:
         serializedVersion: 2
-        x: 280
-        y: 46
-        width: 35
-        height: 75
+        x: 1122
+        y: 187
+        width: 132
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +402,10 @@ TextureImporter:
       name: Logo CellsForge_10
       rect:
         serializedVersion: 2
-        x: 319
-        y: 46
-        width: 30
-        height: 75
+        x: 1280
+        y: 189
+        width: 110
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +424,10 @@ TextureImporter:
       name: Logo CellsForge_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 3
-        width: 26
-        height: 26
+        x: 517
+        y: 40
+        width: 97
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +446,10 @@ TextureImporter:
       name: Logo CellsForge_12
       rect:
         serializedVersion: 2
-        x: 87
-        y: 9
-        width: 67
-        height: 29
+        x: 777
+        y: 40
+        width: 59
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +468,10 @@ TextureImporter:
       name: Logo CellsForge_13
       rect:
         serializedVersion: 2
-        x: 150
-        y: 9
-        width: 25
-        height: 20
+        x: 848
+        y: 113
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +490,10 @@ TextureImporter:
       name: Logo CellsForge_14
       rect:
         serializedVersion: 2
-        x: 173
-        y: 9
-        width: 21
-        height: 20
+        x: 260
+        y: 16
+        width: 94
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +512,10 @@ TextureImporter:
       name: Logo CellsForge_15
       rect:
         serializedVersion: 2
-        x: 193
-        y: 9
-        width: 17
-        height: 25
+        x: 354
+        y: 42
+        width: 80
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +534,10 @@ TextureImporter:
       name: Logo CellsForge_16
       rect:
         serializedVersion: 2
-        x: 206
-        y: 10
-        width: 15
-        height: 27
+        x: 431
+        y: 40
+        width: 84
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +556,10 @@ TextureImporter:
       name: Logo CellsForge_17
       rect:
         serializedVersion: 2
-        x: 218
-        y: 9
-        width: 23
-        height: 20
+        x: 606
+        y: 40
+        width: 89
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +578,10 @@ TextureImporter:
       name: Logo CellsForge_18
       rect:
         serializedVersion: 2
-        x: 239
-        y: 10
-        width: 25
-        height: 19
+        x: 695
+        y: 40
+        width: 79
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +600,10 @@ TextureImporter:
       name: Logo CellsForge_19
       rect:
         serializedVersion: 2
-        x: 261
-        y: 9
-        width: 21
-        height: 20
+        x: 830
+        y: 42
+        width: 48
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,6 +614,72 @@ TextureImporter:
       bones: []
       spriteID: 2b323e787f98f73a0800000000000000
       internalID: -6665457227255307342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_20
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 40
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe952ac4a9395b9f0800000000000000
+      internalID: -453293896560911889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_21
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 42
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e60ebc7815007e40800000000000000
+      internalID: 5652023135080154855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo CellsForge_22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 40
+        width: 75
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb547f07e52e1dc0800000000000000
+      internalID: -3666451372306048008
       vertices: []
       indices: 
       edges: []
@@ -636,6 +711,9 @@ TextureImporter:
       Logo CellsForge_18: 2070040333969203322
       Logo CellsForge_19: -6665457227255307342
       Logo CellsForge_2: -6354762597614273976
+      Logo CellsForge_20: -453293896560911889
+      Logo CellsForge_21: 5652023135080154855
+      Logo CellsForge_22: -3666451372306048008
       Logo CellsForge_3: -2480444105269895702
       Logo CellsForge_4: -6855703267861212391
       Logo CellsForge_5: -5476299238463585093

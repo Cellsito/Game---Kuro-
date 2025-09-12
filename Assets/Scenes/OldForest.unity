@@ -14762,7 +14762,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.78039217}
   m_FlipX: 0
@@ -27136,10 +27136,10 @@ RectTransform:
   m_LocalScale: {x: 0.0073909643, y: 0.0073909643, z: 0.0073909643}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1173917254}
   - {fileID: 2117751870}
   - {fileID: 636556239}
   - {fileID: 1864687763}
-  - {fileID: 1173917254}
   m_Father: {fileID: 928593950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -27208,7 +27208,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!1 &2144822053
 GameObject:
@@ -27472,6 +27472,10 @@ PrefabInstance:
     - target: {fileID: 5438458164996179057, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
       propertyPath: m_Name
       value: Game Over
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438458164996179057, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6469242802207057769, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
       propertyPath: m_Pivot.x
