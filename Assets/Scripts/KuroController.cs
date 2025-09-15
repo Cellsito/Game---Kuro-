@@ -173,7 +173,7 @@ public class KuroController : MonoBehaviour
         atkCollider.SetActive(false);
     }
 
-    IEnumerator TakeDamage(float amount)
+    public IEnumerator TakeDamage(float amount)
     {
         if (currentHealth > 0)
         {
