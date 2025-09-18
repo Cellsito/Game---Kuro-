@@ -101,7 +101,7 @@ public class KuroController : MonoBehaviour
 
 
         // Pulo
-        if (Input.GetButtonDown("Jump") && isGrounded && !isAttack)
+        if ((Input.GetKeyDown(KeyCode.Space) || Gamepad.current.buttonSouth.wasPressedThisFrame) && isGrounded && !isAttack)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
@@ -110,7 +110,7 @@ public class KuroController : MonoBehaviour
         }
 
         //Attack
-        if (Input.GetKeyDown(KeyCode.K))
+        if ((Input.GetKeyDown(KeyCode.K) || Gamepad.current.buttonWest.wasPressedThisFrame) && !isTakingDamage)
         {
             StartCoroutine(SlashAttack());
         }
@@ -127,19 +127,19 @@ public class KuroController : MonoBehaviour
         //}
 
         //Pause
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Gamepad.current.startButton.wasPressedThisFrame)
         {
             Time.timeScale = 0;
             pause.SetActive(true);
         }
 
         //Debug Dano
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            StartCoroutine(TakeDamage(maxHealth * 0.1f));
+        //if (Input.GetKeyDown(KeyCode.L))
+        //{
+        //    StartCoroutine(TakeDamage(maxHealth * 0.1f));
 
-            Debug.Log("TomouDano");
-        }
+        //    Debug.Log("TomouDano");
+        //}
 
         //var gp = Gamepad.current;
 
