@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class ButtonConfigs : MonoBehaviour
@@ -6,6 +7,7 @@ public class ButtonConfigs : MonoBehaviour
     // Nome da cena para onde vai mudar
     public string sceneName;
     public GameObject canva;
+    public GameObject buttonMenu;
 
     // Carrega a cena definida
     public void LoadScene()
@@ -16,10 +18,12 @@ public class ButtonConfigs : MonoBehaviour
     public void MainMOptions()
     {
         canva.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(buttonMenu);
     }
 
     public void MainMBack()
     {
+        EventSystem.current.SetSelectedGameObject(buttonMenu);
         canva.SetActive(false);
         Time.timeScale = 1f;
     }

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.DualShock;
 using UnityEngine.Rendering;
@@ -22,6 +23,8 @@ public class KuroController : MonoBehaviour
     public GameObject atkCollider;
     public GameObject pause;
     public GameObject gameover;
+    public GameObject buttonMenu;
+    public GameObject buttonGameOver;
 
     [Header("UI")]
     public float maxHealth = 100f;
@@ -131,6 +134,7 @@ public class KuroController : MonoBehaviour
         {
             Time.timeScale = 0;
             pause.SetActive(true);
+            EventSystem.current.SetSelectedGameObject(buttonMenu);
         }
 
         //Debug Dano
@@ -198,5 +202,6 @@ public class KuroController : MonoBehaviour
     {
         Time.timeScale = 0;
         gameover.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(buttonGameOver);
     }
 }

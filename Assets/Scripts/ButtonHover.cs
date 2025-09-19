@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
     private Vector3 originalScale;
     public float scaleFactor = 1.5f; // quanto vai crescer
@@ -28,15 +28,29 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        isHovered = true;
-        lFrame.SetActive(isHovered);
-        rFrame.SetActive(isHovered);
+        SetHover(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        isHovered = false;
-        lFrame.SetActive(isHovered);
-        rFrame.SetActive(isHovered);
+        SetHover(false);
+    }
+
+    // --- Gamepad seleção ---
+    public void OnSelect(BaseEventData eventData)
+    {
+        SetHover(true);
+    }
+
+    public void OnDeselect(BaseEventData eventData)
+    {
+        SetHover(false);
+    }
+
+    private void SetHover(bool state)
+    {
+        isHovered = state;
+        lFrame.SetActive(state);
+        rFrame.SetActive(state);
     }
 }

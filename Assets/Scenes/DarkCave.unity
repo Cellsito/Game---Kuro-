@@ -601,6 +601,14 @@ PrefabInstance:
       propertyPath: gameover
       value: 
       objectReference: {fileID: 1393126026}
+    - target: {fileID: 2010793876968236413, guid: 0d35fd4cd5580264d834223e9636c5a3, type: 3}
+      propertyPath: buttonMenu
+      value: 
+      objectReference: {fileID: 1518652276}
+    - target: {fileID: 2010793876968236413, guid: 0d35fd4cd5580264d834223e9636c5a3, type: 3}
+      propertyPath: buttonGameOver
+      value: 
+      objectReference: {fileID: 174601047}
     - target: {fileID: 7183400088450532901, guid: 0d35fd4cd5580264d834223e9636c5a3, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -691,12 +699,16 @@ PrefabInstance:
       value: 4.418581
       objectReference: {fileID: 0}
     - target: {fileID: 3029027030073593077, guid: 98f146843dee72340a6ad0d0fa8900d3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6861486
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029027030073593077, guid: 98f146843dee72340a6ad0d0fa8900d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 217.7
       objectReference: {fileID: 0}
     - target: {fileID: 3029027030073593077, guid: 98f146843dee72340a6ad0d0fa8900d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -73.97
+      value: -75.8255
       objectReference: {fileID: 0}
     - target: {fileID: 3029027030073593077, guid: 98f146843dee72340a6ad0d0fa8900d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1344,6 +1356,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7654344293759973928, guid: aef5ebc0825efda44a4030d9a5a00de3, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654344293759973928, guid: aef5ebc0825efda44a4030d9a5a00de3, type: 3}
       propertyPath: m_Color.b
       value: 0.2541971
       objectReference: {fileID: 0}
@@ -1357,7 +1373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7654344293759973928, guid: aef5ebc0825efda44a4030d9a5a00de3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8291691903826943693, guid: aef5ebc0825efda44a4030d9a5a00de3, type: 3}
       propertyPath: m_Name
@@ -1585,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5438458164996179057, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6469242802207057769, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
       propertyPath: m_Pivot.x
@@ -1672,6 +1688,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
+--- !u!1 &174601047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5652926280238029776, guid: dc32326fb3ea7864f91cd14392b6ad2e, type: 3}
+  m_PrefabInstance: {fileID: 174601046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &175582208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9454,15 +9475,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3424366269023240309, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231936922992889166, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
+      propertyPath: fullscreenToggle
+      value: 
+      objectReference: {fileID: 1518652275}
+    - target: {fileID: 6369919974255291766, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6369919974255291766, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6369919974255291766, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7130856237309321416, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_Name
@@ -9474,15 +9499,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7700162139636338505, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7700162139636338505, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7700162139636338505, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8219840759909965341, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
       propertyPath: m_Pivot.x
@@ -9572,6 +9597,22 @@ PrefabInstance:
       addedObject: {fileID: 1393126027}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
+--- !u!114 &1518652275 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4768703553926250510, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
+  m_PrefabInstance: {fileID: 1518652274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1518652276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8656044584692961224, guid: ab09ac0f0a4e0e44c92981de2260cd55, type: 3}
+  m_PrefabInstance: {fileID: 1518652274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1519183513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9984,7 +10025,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 5
+  m_PointLightOuterRadius: 8.79
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
